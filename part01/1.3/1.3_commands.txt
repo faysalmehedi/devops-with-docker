@@ -1,0 +1,24 @@
+~ $ docker run -d --name ex1.3 devopsdockeruh/simple-web-service:ubuntu
+160b40af77e9733602ff38d6fa85b4b272113c3092e8718f92de50170041d2d1
+~ $ docker ps
+CONTAINER ID   IMAGE                                      COMMAND                 CREATED          STATUS          PORTS     NAMES
+160b40af77e9   devopsdockeruh/simple-web-service:ubuntu   "/usr/src/app/server"   42 seconds ago   Up 39 seconds             ex1.3
+~ $ docker exec -it ex1.3 bash
+root@160b40af77e9:/usr/src/app# ls      
+server  text.log
+root@160b40af77e9:/usr/src/app# tail -f ./text.log
+2021-03-18 18:12:52 +0000 UTC
+2021-03-18 18:12:54 +0000 UTC
+2021-03-18 18:12:56 +0000 UTC
+2021-03-18 18:12:58 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2021-03-18 18:13:00 +0000 UTC
+2021-03-18 18:13:02 +0000 UTC
+2021-03-18 18:13:04 +0000 UTC
+2021-03-18 18:13:06 +0000 UTC
+2021-03-18 18:13:08 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2021-03-18 18:13:10 +0000 UTC
+2021-03-18 18:13:12 +0000 UTC
+^C
+root@160b40af77e9:/usr/src/app# 
