@@ -1,0 +1,11 @@
+version: "3.5"
+
+services:
+  simple-web-server:
+    image: devopsdockeruh/simple-web-service:alpine
+    ports:
+      - 8000:8080
+
+    command: server
+
+    container_name: web-server
