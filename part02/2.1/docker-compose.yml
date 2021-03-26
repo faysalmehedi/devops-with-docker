@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  exercise_21:
+    image: devopsdockeruh/simple-web-service:alpine
+    volumes:
+      - ./text.log:/usr/src/app/text.log
+    container_name: ex21
