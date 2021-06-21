@@ -1,3 +1,5 @@
+```console
+
 ~/Code/devops-with-docker/part01/1.7 $ docker build . -t web-server
 Sending build context to Docker daemon  2.048kB
 Step 1/2 : FROM devopsdockeruh/simple-web-service:alpine
@@ -23,5 +25,4 @@ devopsdockeruh/simple-web-service   alpine    fd312adc88e0   4 days ago       15
 [GIN-debug] GET    /*path                    --> server.Start.func1 (3 handlers)
 [GIN-debug] Listening and serving HTTP on :8080
 
-
-
+```

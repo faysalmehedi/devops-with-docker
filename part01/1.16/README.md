@@ -2,7 +2,7 @@
 
 _Commands I used to publish the existing docker-image `devopsdockeruh/heroku-example` to heroku. First I created a free account on heroku and install heroku cli on my machine._
 
-```bash
+```console
 $ docker pull devopsdockeruh/heroku-example
 $ heroku login
 $ heroku container:login

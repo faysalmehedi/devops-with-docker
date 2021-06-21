@@ -7,13 +7,13 @@ _Please follow the following instructions to run the docker images on the local 
 - Make sure docker installed in the local machine.
 - Pull the docker image from the docker hub repo
 
-```bash
+```console
 $ docker pull faysalmehedi/web-server-test:latest
 ```
 
 - Run the image on the local machine as container
 
-```bash
+```console
 $ docker run -p 8080:8080 faysalmehedi/web-server-test:latest
 ```
 

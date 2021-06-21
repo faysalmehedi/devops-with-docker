@@ -1,3 +1,4 @@
+```console
 ~/Code/devops-with-docker/part01/1.8 $ docker build . -t curler
 ~/Code/devops-with-docker/part01/1.8 $ docker images
 REPOSITORY                          TAG       IMAGE ID       CREATED              SIZE
@@ -15,4 +16,4 @@ Searching..
 <p>The document has moved <a href="http://www.helsinki.fi/">here</a>.</p>
 </body></html>
 ~/Code/devops-with-docker/part01/1.8 $ 
-
+```
