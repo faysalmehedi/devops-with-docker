@@ -1,0 +1,7 @@
+Problem: The issue was with CORS setup. 
+
+Steps Taken:
+
+01. Change the Dockerfile for Backend; 
+Set ENV 'REQUEST_ORIGIN=http://localhost' instead of 'ENV REQUEST_ORIGIN=http://localhost:5000'
+02. Make sure to new build for backend image. 
