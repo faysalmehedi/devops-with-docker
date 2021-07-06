@@ -18,7 +18,8 @@ COPY --from=build-env /usr/src/app /usr/src/app
 
 RUN apk update && apk add ca-certificates && rm -rf /var/cache/apk/* && \
     adduser -D appuser && \
-    chown appuser .
+    # chown appuser .
+    chmod +x server
 
 USER appuser
 
