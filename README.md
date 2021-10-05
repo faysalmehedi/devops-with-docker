@@ -10,7 +10,7 @@ Contents:
 
 ## Course Certificate
 
-[**_Link_**: ]](https://studies.cs.helsinki.fi/stats/api/certificate/docker2021/en/769be2597f33793a3ad39cd4a2a76329)
+[**_Link_**](https://studies.cs.helsinki.fi/stats/api/certificate/docker2021/en/769be2597f33793a3ad39cd4a2a76329)
 
 ![Certificate Screenshot](https://github.com/faayam/devops-with-docker/blob/main/certificate-docker.png)
 
